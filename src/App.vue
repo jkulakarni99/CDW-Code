@@ -27,6 +27,7 @@ export default {
       const data = await fetch("https://mocki.io/v1/ddb7e0a8-e218-4e36-b1be-b902cdb1c098");
       const json = await data.json();
       this.allList = json;
+      console.log(this.allList);
       this.adminList = json.filter(ele => ele.role.toLowerCase() === 'admin');
       this.memberList = json.filter(ele => ele.role.toLowerCase() === 'member');
     },
