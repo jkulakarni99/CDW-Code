@@ -41,7 +41,7 @@ export default {
   height: 80px;
   width: 100vw;
   top: 0;
-  background-color: #37C6FF;
+  background-color: #6d9eed;
   display: flex;
   align-items: center;
   position: fixed;
@@ -64,6 +64,7 @@ export default {
   padding: 0 3rem;
   border: none;
   margin-top: 5px;
+  font-size: 1.3rem;
 }
 .input-field:focus-visible {
   outline: none

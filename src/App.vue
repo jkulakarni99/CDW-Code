@@ -4,6 +4,7 @@
     <UserList header="Administrators" :userList="adminList" style="margin-top: 7rem"/>
     <div class="divider"></div>
     <UserList class="user-list" header="Members" :userList="memberList" />
+    <button class="add-button"><span class="mdi mdi-plus add-icon"></span></button>
   </div>
 </template>
 
@@ -63,5 +64,20 @@ body {
 .divider {
   border: 1px solid #808080;
   margin: 3rem
+}
+.add-button {
+  position: fixed;
+  right: 6rem;
+  top: 90vh;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  border: none;
+  background: #6d9eed;
+}
+.add-icon {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff
 }
 </style>
