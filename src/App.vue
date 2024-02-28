@@ -36,7 +36,7 @@ export default {
       const filteredArr = this.allList.reduce((acc, cur) => {
         let present = false;
         Object.keys(cur).forEach(key => {
-          if (cur[key].toLowerCase()
+          if ((key === 'first_name' || key === 'last_name' || key === 'email') && cur[key].toLowerCase()
           .includes(val.toLowerCase())) present = true;
         });
         if (present) acc.push(cur);

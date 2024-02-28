@@ -7,7 +7,6 @@
         <div class="user-info">
           <span>{{item.first_name}} {{item.last_name}}</span>
           <p>{{item.email}}</p>
-          <p>{{item.role}}</p>
         </div>
       </div>
       </div>
