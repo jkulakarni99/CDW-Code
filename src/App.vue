@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import UserList from './components/Administators.vue'
+import UserList from './components/UsersToDisplay.vue'
 import HeaderComponent from './components/HeaderComponent.vue'
 export default {
   name: 'App',

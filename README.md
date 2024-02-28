@@ -6,6 +6,7 @@
 5) Filter is added and working properly.
 6) Props passed from Parent to Child and $emit function called from child to parent to achive filter.
 7) To check the app in the localhost, pls clonse this repo and follow the below steps 
+8) Also for search icon I used mdi icons, there I didn;t get the mentioned icon, Hence added this user-search icon
 ## Project setup
 ```
 npm install
